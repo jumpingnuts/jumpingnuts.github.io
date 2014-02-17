@@ -1,4 +1,4 @@
 jumpingnuts.github.io
 =====================
 
-[Jumping Nuts Inc.](jumpingnuts.com)
+[Jumping Nuts Inc.](http://jumpingnuts.com)
