@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jumping Nuts Inc.</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="format-detection" content="telephone=no, address=no, email=no"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700"/>
+        <link rel="stylesheet" href="./assets/css/common.min.css" />
+        <link rel="stylesheet" href="./assets/css/jumpingnuts.css" />
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="viewport">
+            <header id="header">
+                <div class="top-bar"></div>
+                <div class="brand txt-center">
+                    <img src="./assets/img/brand.png" alt="Jumping Nuts Logo" />
+                </div>
+            </header>
+            <section id="container">
+                <div class="trangle"></div>
+                <div class="inner">
+                    <h1 class="txt-center txt-shadow fg-white txt-regular txt-bigger">
+                        All about fun on your hand
+                        <small>
+                            We are coming this fall. Let us keep you posted.
+                        </small>    
+                    </h1>
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                    <form action="http://jumpingnuts.us7.list-manage.com/subscribe/post?u=fa98cd534474e19b05cc1cc22&amp;id=cf5c36c416" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <fieldset class="form-seg vmargin-big">
+                            <div class="row-fluid">
+                                <input type="email" value="" name="EMAIL" class="row-12 required email" id="mce-EMAIL" placeholder="email address" required>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-action txt-center">
+                            <div class="clear txt-center">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-large btn-facebook fg-white">
+                            </div>
+                        </fieldset>
+
+                        
+                    </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+
+                </div>
+            </section>
+            <footer id="footer">
+                <p class="txt-center fg-white copyright">
+                    &copy; 2013 Jumping Nuts<br />
+                    <addr>16 Nonhyeon-ro 72-gil, Gangnam-gu, Seoul</addr><br />
+                    <a href="emailto:nuts@jumpingnuts.com" class="fg-white">nuts@jumpingnuts.com</a>
+                </p>
+            </footer>
+        </div>
+        <!--div id="dialog_wrap">
+            <div class="layer-backdrop layer-masked bg-black"></div>
+            <div id="dialog">
+                <div class="complete">
+                    
+                </div>
+            </div>
+        </div-->
+    </body>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#container').height(
+            $(window).innerHeight() - $('#header').height() - $('#footer').height()
+        );
+    </script>
+
+</html>
