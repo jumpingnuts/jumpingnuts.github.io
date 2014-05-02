@@ -59,7 +59,7 @@
                 <p class="txt-center fg-white copyright">
                     &copy; 2013 Jumping Nuts<br />
                     <addr>16 Nonhyeon-ro 72-gil, Gangnam-gu, Seoul</addr><br />
-                    <a href="emailto:nuts@jumpingnuts.com" class="fg-white">nuts@jumpingnuts.com</a><br />
+                    <a href="mailto:nuts@jumpingnuts.com" class="fg-white">nuts@jumpingnuts.com</a><br /><br />
                     <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a>
                 </p>
             </footer>
@@ -79,5 +79,15 @@
             $(window).innerHeight() - $('#header').height() - $('#footer').height()
         );
     </script>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-44989281-1', 'jumpingnuts.com');
+		ga('send', 'pageview');
+	</script>
 
 </html>
